@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace PROJECTEULER.EJERCICIOS
 {
-    internal class Problema07
+    internal class Problema10
     {
         public static long Resolver()
         {
-            int objetivo = 10001;
+            int objetivo = 2000000;
             int contadorPrimosEncontrados = 0;
-            long numeroActual = 1; 
+            long numeroActual = 1;
+            long resultado = 0;
 
             while (contadorPrimosEncontrados < objetivo)
             {
@@ -20,10 +21,15 @@ namespace PROJECTEULER.EJERCICIOS
 
                 if (NumesrosPrimos(numeroActual))
                 {
+                    if (numeroActual > objetivo)
+                    {
+                        break;
+                    }
                     contadorPrimosEncontrados++;
+                    resultado += numeroActual;
                 }
             }
-            return numeroActual; 
+            return resultado; 
         }
 
         static bool NumesrosPrimos(long num_f)
