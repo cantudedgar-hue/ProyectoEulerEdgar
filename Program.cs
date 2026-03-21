@@ -6,4 +6,7 @@
 //Console.WriteLine(Problema04.Resolver());
 //Console.WriteLine(Problema05.Resolver());
 //Console.WriteLine(Problema06.Resolver(100));
-Console.WriteLine(Problema07.Resolver());
+//Console.WriteLine(Problema07.Resolver());
+//Problema08.Resolver();
+Problema09.Resolver();
+
