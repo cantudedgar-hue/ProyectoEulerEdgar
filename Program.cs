@@ -9,5 +9,5 @@
 //Console.WriteLine(Problema07.Resolver());
 //Problema08.Resolver();
 //Problema09.Resolver();
-Console.WriteLine(Problema10.Resolver());
-
+//Console.WriteLine(Problema10.Resolver());
+Console.WriteLine(Problema16.Resolver(2,1000));
